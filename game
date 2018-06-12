@@ -475,11 +475,11 @@ class MyGame(object):
             # call the move function of the object
             self.spaceship.move()
 
-            """Note that this is a good place to make the spaceship
-            bounce for example, when it hits the walls (sides of screen)
-            or make it not move out of screen when it reaches the borders.
-            Due to lack of time, I can't implement any of them, but they are
-            not hard to do at all."""
+            if spaceship.position >= 800 or 0:
+                
+                spaceship.position == 400
+                
+            
 
 
     def missiles_physics(self):
