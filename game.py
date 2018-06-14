@@ -1,13 +1,4 @@
-"""
-Simple asteroids clone written in Python
-     _        _                 _     _     
-    / \   ___| |_ ___ _ __ ___ (_) __| |___ 
-   / _ \ / __| __/ _ \ '__/ _ \| |/ _` / __|
-  / ___ \\__ \ ||  __/ | | (_) | | (_| \__ \
- /_/   \_\___/\__\___|_|  \___/|_|\__,_|___/
-by Amin Bandali
 
-"""
 from __future__ import division
 import math
 import sys
@@ -483,13 +474,6 @@ class MyGame(object):
 
             # call the move function of the object
             self.spaceship.move()
-
-            """Note that this is a good place to make the spaceship
-            bounce for example, when it hits the walls (sides of screen)
-            or make it not move out of screen when it reaches the borders.
-            Due to lack of time, I can't implement any of them, but they are
-            not hard to do at all."""
-
 
     def missiles_physics(self):
         """Do all the physics of missiles"""
