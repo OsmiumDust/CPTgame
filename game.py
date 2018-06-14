@@ -8,9 +8,9 @@ import random
 import pygame
 
 
-##################################
+
 # General Helper functions (START)
-##################################
+
 
 def load_image_convert_alpha(filename):
     """Load an image with the given filename from the images directory"""
@@ -40,9 +40,9 @@ def distance(p, q):
     """Helper function to calculate distance between 2 points"""
     return math.sqrt((p[0]-q[0])**2 + (p[1]-q[1])**2)
 
-################################
+
 # General Helper functions (END)
-################################
+
 
 
 class GameObject(object):
